@@ -1,5 +1,19 @@
 # GeminiProChat
 
+
+将package.json里的"@fuyun/generative-ai"版本号升级到0.2.1
+src/utils/openAI.ts第11行的model:"gemini-pro"修改为"gemini-2.0-flash"
+注意部署时加命令pnpm install --no-frozen-lockfile
+
+目前支持的免费模型有：
+
+gemini-2.0-flash
+gemini-2.0-flash-lite
+gemini-1.5-pro
+gemini-1.5-flash
+gemini-1.5-flash-8b
+
+
 [English](README.md) | 中文 | [Italiano](README_it.md) | [日本語](README_jp.md)
 
 与 Gemini Pro 聊天的最简 WebUI。
